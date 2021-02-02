@@ -414,6 +414,11 @@ h2 {
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: 100% 100%; /* Resize the background image to cover the entire container */
 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     div {
         &:first-child {
             width: 100%;

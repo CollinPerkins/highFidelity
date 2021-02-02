@@ -418,6 +418,15 @@ h2 {
   /* Do not repeat the image */
   background-size: 100% 100%;
   /* Resize the background image to cover the entire container */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #testimonials div:first-child {
