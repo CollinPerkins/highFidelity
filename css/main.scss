@@ -400,7 +400,11 @@ h2 {
     .btnPrimary {
         margin-top: 30px;
     }
-    
+
+    img {
+        max-width: 370px;
+        width: 100%;
+    }    
 }
 
 // Testimonials
@@ -829,6 +833,158 @@ h2 {
         background-size: cover;
         height: initial;
     }
+}
+
+@media (max-width: 767px) {
+
+    .jumbotron {
+        h1 {
+            font-size: 26px;
+            font-weight: 400;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .phoneNumber {
+            display: inline-block;
+            margin-top: 20px;
+        }
+    }
+
+    #about {
+        padding: 40px;
+
+        h1 {
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .getInTouch {
+            display: inline-block;
+            margin-right: 20px;
+            font-size: 16px;
+        }
+
+        .resumeBtn {
+            font-size: 16px;
+            display: inline-block;
+            padding: 3px 8px;
+            position: relative;
+            top: 3px;
+            margin-left: 0;
+            margin-top: 10px;
+
+            i {                
+                font-size: 21px;
+            }
+        }
+    }
+
+    #partnerships {
+        padding: 40px;
+
+        h1 {
+            font-size: 14px;
+        }
+    }
+
+    #services {
+        padding: 40px;
+
+        h1 {
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }    
+
+    #testimonials {
+        padding: 40px;
+
+        h1 {
+            font-size: 14px;
+            padding: 0 10px;
+        }
+
+        .text {
+            font-size: 16px;
+        }
+
+        .person {
+            font-size: 20px;
+        }
+
+        #testimonialSlider {
+            padding: 0 10px;
+        }
+    }
+
+    #media {
+        padding: 40px;
+
+        h1 {
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .books {
+            margin: 20px 0;
+            div {
+                margin: 0 auto;
+            }
+        }
+
+        .video {
+            padding-right: 0;
+        }
+
+        .videoTitle {
+            font-size: 16px;
+        }
+    }  
+
+    #contact {
+        padding: 40px;
+
+        h1 {
+            font-size: 14px;
+        }
+
+        h2 {
+            font-size: 26px;
+        }
+
+        p {
+            font-size: 12px;
+        }
+
+        .quickLinks {
+            margin: 20px 0; 
+        }
+    }  
 }
 
 
